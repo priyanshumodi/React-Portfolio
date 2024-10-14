@@ -47,7 +47,8 @@ const Hero = () => {
                     initial={{ x: 100, opacity: 0}}
                     animate={{ x:0, opacity: 1}}
                     transition={{duration: 1, delay:1.2}}
-                    src={profilePic} alt="Kevin Rush" />
+                    // src={profilePic} alt="Kevin Rush" />
+                    src='https://images.pexels.com/photos/1181330/pexels-photo-1181330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt="Kevin Rush" />
                 </div>
             </div>
         </div>
