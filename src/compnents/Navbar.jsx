@@ -13,10 +13,18 @@ const Navbar = () => {
             <span className='text-4xl font-medium'>Pm</span>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedin />
-            <FaGithub />
-            <FaInstagram />
-            <FaSquareXTwitter />
+            <a href="https://www.linkedin.com/in/priyanshu-modi-31b92a248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin />
+            </a>
+            <a href="https://github.com/priyanshumodi" target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+            </a>
+            <a href="https://www.instagram.com/thepriyanshumodi?igsh=MTFrcTNycmNzNGlk" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+            </a>
+            <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                <FaSquareXTwitter />
+            </a>    
         </div>
     </nav>
   )
